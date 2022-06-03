@@ -1,11 +1,12 @@
 // scss-lint:disable all
+
 @font-face {
-  font-family: 'tomorrow';
-  src: url('./assets/fonts/tomorrow.eot');
-  src: url('./assets/fonts/tomorrow.eot') format('embedded-opentype'),
-    url('./assets/fonts/tomorrow.ttf') format('truetype'),
-    url('./assets/fonts/tomorrow.woff') format('woff'),
-    url('./assets/fonts/tomorrow.svg#tomorrow') format('svg');
+  font-family: 'tommorow';
+  src: url('./assets/fonts/tommorow.eot');
+  src: url('./assets/fonts/tommorow.eot#iefix') format('embedded-opentype'),
+    url('./assets/fonts/tommorow.ttf') format('truetype'),
+    url('./assets/fonts/tommorow.woff') format('woff'),
+    url('./assets/fonts/tommorow.svg#tommorow') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +14,7 @@
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'tomorrow' !important;
+  font-family: 'tommorow' !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -25,51 +26,51 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ic-store:before {
+.ic-bell:before {
   content: '\e900';
 }
-.ic-star:before {
+.ic-bookmark:before {
   content: '\e901';
 }
-.ic-search:before {
+.ic-bookmark-filled:before {
   content: '\e902';
 }
-.ic-new:before {
+.ic-caret:before {
   content: '\e903';
 }
-.ic-menu:before {
+.ic-cart:before {
   content: '\e904';
 }
-.ic-lock:before {
+.ic-check:before {
   content: '\e905';
 }
-.ic-expert:before {
+.ic-chevron:before {
   content: '\e906';
 }
-.ic-community:before {
+.ic-close:before {
   content: '\e907';
 }
-.ic-close:before {
+.ic-community:before {
   content: '\e908';
 }
-.ic-chevron:before {
+.ic-expert:before {
   content: '\e909';
 }
-.ic-check:before {
+.ic-lock:before {
   content: '\e90a';
 }
-.ic-cart:before {
+.ic-menu:before {
   content: '\e90b';
 }
-.ic-caret:before {
+.ic-new:before {
   content: '\e90c';
 }
-.ic-bookmark-filled:before {
+.ic-search:before {
   content: '\e90d';
 }
-.ic-bookmark:before {
+.ic-star:before {
   content: '\e90e';
 }
-.ic-bell:before {
+.ic-store:before {
   content: '\e90f';
 }
