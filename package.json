@@ -1,0 +1,25 @@
+{
+  "name": "ui-layout-project",
+  "version": "1.0.0",
+  "description": "> ### UI 감 익히기 위한 저장소",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass",
+    "sass": "node-sass styles/main.scss ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiyun1006/ui-layout-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiyun1006/ui-layout-project/issues"
+  },
+  "homepage": "https://github.com/jiyun1006/ui-layout-project#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
